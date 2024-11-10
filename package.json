@@ -1,0 +1,33 @@
+{
+  "name": "day-s-watch",
+  "displayName": "Day's Watch",
+  "description": "An light theme for Visual Studio Code",
+  "publisher": "KjartanBourgeois",
+  "version": "0.0.1",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/KjartanBourgeois/days-watch"
+  },
+  "keyword": [
+	"theme",
+	"light",
+	"color",
+	"vscode"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Day's Watch",
+        "uiTheme": "vs",
+        "path": "./themes/Day's Watch-color-theme.json"
+      }
+    ]
+  }
+}

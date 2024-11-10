@@ -1,0 +1,284 @@
+{
+  "name": "Day's Watch",
+  "colors": {
+    "editor.background": "#f4fbff",
+    "editor.foreground": "#131112",
+    "editorWidget.background": "#FFFFFF",
+    "editorWidget.border": "#0077BE",
+    "titleBar.border": "#0077BE",
+    "titleBar.activeBackground": "#f4fbff",
+    "progressBar.background": "#0077BE",
+    "sideBar.background": "#f4fbff",
+    "sideBar.foreground": "#131112",
+    "sideBar.border": "#0077BE",
+    "activityBarBadge.background": "#131112",
+    "sideBarTitle.foreground": "#0077BE",
+    "activityBar.activeBackground": "#0086D4",
+    "activityBar.activeBorder": "#0077BE",
+    "activityBar.activeFocusBorder": "#131112",
+    "activityBar.foreground": "#131112",
+    "activityBar.inactiveForeground": "#131112",
+    "activityBar.border": "#131112",
+    "activityBar.background": "#0077BE",
+    "selection.background": "#0078beb1",
+    "button.background": "#0077BE",
+    "dropdown.background": "#FFFFFF",
+    "dropdown.border": "#0077BE",
+    "input.background": "#0078beb1",
+    "input.placeholderForeground": "#131112",
+    "input.border": "#0077BE",
+    "input.foreground": "#131112",
+    "editorGroupHeader.tabsBackground": "#FFFFFF",
+    "editorGroupHeader.tabsBorder": "#0077BE",
+    "editorGroup.border": "#0077BE",
+    "tab.activeBackground": "#0077BE",
+    "tab.activeForeground": "#131112",
+	"tab.inactiveForeground": "#131112",
+    "tab.border": "#0077BE",
+    "tab.inactiveBackground": "#FFFFFF",
+
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "comment.block.css",
+        "punctuation.definition.comment",
+        "comment.block.html",
+        "comment.line.double-slash.js"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#00000069"
+      }
+    },
+    {
+      "scope": ["string", "constant.character.escape"],
+      "settings": {
+        "foreground": "#008dd5" // Light Blue for strings and escape characters
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#EA9462" // Yellow for keywords
+      }
+    },
+    {
+      "scope": "variable.other",
+      "settings": {
+        "foreground": "#EA9462", // Yellow for other variables
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#EA9462" // Yellow for numeric constants
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#008dd5" // Light Blue for function names
+      }
+    },
+    {
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#EA9462" // Yellow for operators
+      }
+    },
+
+    //   VUEJS
+    {
+      "scope": [
+        "text.html.vue",
+        "source.vue",
+        "text.html.basic",
+        "text.html.basic source",
+        "text.html.basic meta.tag",
+        "text.html.basic meta.tag entity.tag",
+        "text.html.basic meta.tag entity.tag script",
+        "text.html.basic meta.tag entity.tag script.js"
+      ],
+      "settings": {
+        "foreground": "#ea5552" // White for Vue.js template code
+      }
+    },
+    {
+      "scope": ["variable.language.vue"],
+      "settings": {
+        "foreground": "#008dd5" // Light Blue for Vue.js directives (e.g., v-if, v-for)
+      }
+    },
+    {
+      "scope": ["variable.function.vue"],
+      "settings": {
+        "foreground": "#008dd5" // Light Blue for Vue.js component names
+      }
+    },
+    {
+      "scope": ["keyword.vue"],
+      "settings": {
+        "foreground": "#EA9462" // Yellow for Vue.js keywords (e.g., export, props)
+      }
+    },
+    {
+      "scope": ["string.quoted.vue"],
+      "settings": {
+        "foreground": "#008dd5" // Light Blue for Vue.js attribute values
+      }
+    },
+    {
+      "scope": ["comment.block.documentation.vue"],
+      "settings": {
+        "foreground": "#00000069" // Medium Gray for Vue.js documentation comments
+      }
+    },
+    {
+      "scope": ["entity.name.tag.vue"],
+      "settings": {
+        "foreground": "#EA9462" // Yellow for Vue.js HTML/XML tags
+      }
+    },
+    {
+      "scope": ["entity.name.tag.vue punctuation.definition.tag.vue"],
+      "settings": {
+        "foreground": "#102542" // White for Vue.js tag punctuation
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag.begin.html.vue ",
+        "punctuation.definition.tag.end.html.vue",
+        "entity.name.tag.script.html.vue",
+        "entity.name.tag.template.html.vue"
+      ],
+      "settings": {
+        "foreground": "#ea5552" // White for Vue.js tag punctuation
+      }
+    },
+	{
+		"scope": "variable.other.readwrite.ts",
+		"settings": {
+			"foreground": "#102542",
+			"fontStyle": "italic"
+		}
+	},
+
+    //Blade and HTML
+    {
+      "scope": [
+        "text.html",
+      ],
+      "settings": {
+        "foreground": "#102542" // Light Blue for HTML code
+      }
+    },
+    {
+      "scope": [
+        "text.html.basic",
+        "text.html.basic source",
+        "text.html.basic meta.tag",
+        "text.html.basic meta.tag entity.tag",
+        "text.html.basic meta.tag entity.tag.script",
+        "text.html.basic meta.tag entity.tag.script.js"
+      ],
+      "settings": {
+        "foreground": "#008dd5" // Light Blue for HTML code
+      }
+    },
+    {
+      "scope": ["entity.name.tag", "punctuation.definition.tag.begin.html", "punctuation.definition.tag.end.html"],
+      "settings": {
+        "foreground": "#ea5552",
+        "fontStyle": "italic" // Yellow for HTML tags
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name", "entity.name.attribute"],
+      "settings": {
+        "foreground": "#EA9462",
+        "fontStyle": "italic" // Yellow for HTML attribute names
+      }
+    },
+    {
+      "scope": "comment.block.documentation.html",
+      "settings": {
+        "foreground": "#00000069" // Medium Gray for HTML documentation comments
+      }
+    },
+    {
+      "scope": "meta.tag.inline.any.html",
+      "settings": {
+        "foreground": "#FF6666" // Coral for inline tags (e.g., <a>, <span>)
+      }
+    },
+    {
+      "scope": ["meta.attribute.for.html", "meta.attribute.name.html"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+
+    // PHP
+    {
+      "scope": [
+        "source.php",
+        "text.html.php source",
+        "text.html.php meta.tag.php",
+        "text.html.php meta.tag.php entity.tag.php",
+        "text.html.php meta.tag.php entity.tag.php script.php",
+        "text.html.php meta.tag.php entity.tag.php script.php source"
+      ],
+      "settings": {
+        "foreground": "#ea5552"  // Light Blue for PHP code
+      }
+    },
+    {
+      "scope": "variable.language.php",
+      "settings": {
+        "foreground": "#EA9462"  // Yellow for PHP language constructs (e.g., echo, if, else)
+      }
+    },
+    {
+      "scope": "support.function.php",
+      "settings": {
+        "foreground": "#008dd5"  // Light Blue for PHP functions
+      }
+    },
+    {
+      "scope": "variable.other.php",
+      "settings": {
+        "foreground": "#102542"  // White for PHP variables
+      }
+    },
+    {
+      "scope": [
+        "variable.other.php punctuation.dollar.php",
+        "variable.other.php punctuation.variable.php"
+      ],
+      "settings": {
+        "foreground": "#EA9462"  // Yellow for PHP variable sigils (e.g., $)
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.single.php",
+        "string.quoted.double.php"
+      ],
+      "settings": {
+        "foreground": "#ea5552"  // Green for PHP strings
+      }
+    },
+    {
+      "scope": "comment.line.double-slash.php",
+      "settings": {
+        "foreground": "#00000069"  // Medium Gray for PHP comments
+      }
+    }
+
+  ]
+}
