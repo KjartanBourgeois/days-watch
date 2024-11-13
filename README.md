@@ -12,10 +12,10 @@
 
 1. Open Visual Studio Code
 2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Search for "[Theme Name]"
+3. Search for "Day's Watch"
 4. Click Install
 5. Press Ctrl+K Ctrl+T (Cmd+K Cmd+T on macOS) to open the theme selector
-6. Select "[Theme Name]" from the list
+6. Select "Day's Watch" from the list
 
 ## Supported Languages
 

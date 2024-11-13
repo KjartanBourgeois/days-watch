@@ -36,7 +36,7 @@
 	"tab.inactiveForeground": "#131112",
     "tab.border": "#0077BE",
     "tab.inactiveBackground": "#FFFFFF",
-
+	"gitDecoration.modifiedResourceForeground": "#b9e4fe",
   },
   "tokenColors": [
     {
