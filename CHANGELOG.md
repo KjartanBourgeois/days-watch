@@ -1,5 +1,12 @@
 # Change Log
 
+## 0.0.3
+
+- Changed tab active background color
+- Changed tab active foreground color
+- Changed git decoration modified foreground
+- Add new git decoration colors for: conflicting, deleted, ignored, untracked, added.
+
 ## 0.0.2
 
 - Add color for modified files
