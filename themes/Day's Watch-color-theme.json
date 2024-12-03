@@ -42,6 +42,9 @@
 	"gitDecoration.ignoredResourceForeground": "#84848490",
 	"gitDecoration.untrackedResourceForeground": "#efb182",
 	"gitDecoration.addedResourceForeground" : "#09de21",
+	"inlineparameters.annotationBackground": "#7ccffd",
+	"inlineparameters.annotationForeground": "#131112",
+
   },
   "tokenColors": [
     {

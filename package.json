@@ -3,7 +3,7 @@
   "displayName": "Day's Watch",
   "description": "An light theme for Visual Studio Code",
   "publisher": "KjartanBourgeois",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.86.0"

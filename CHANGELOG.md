@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.4
+
+- Add color for the inline hints in VSCode
+
 ## 0.0.3
 
 - Changed tab active background color
